@@ -113,7 +113,7 @@
   background-image: url(/images/background_recipes.svg);
 }
 
-.recipe__title {
+.recipes__title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -122,11 +122,11 @@
   color: white;
 }
 
-.recipe__span {
+.recipes__span {
   display: block;
 }
 
-.recipe__subtitle {
+.recipes__subtitle {
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -151,7 +151,7 @@
   color: white;
 }
 
-.recipe__videos-caption {
+.recipes__videos-caption {
   display: flex;
   justify-content: space-between;
 }
