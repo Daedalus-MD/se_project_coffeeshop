@@ -14,9 +14,10 @@
   height: 100vh;
   flex-direction: column;
   display: flex;
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-size: cover;
   background-color: #ffffff;
+  position: relative;
 }
 
 .nav {
@@ -110,7 +111,7 @@
 .recipes {
   padding: 100px 80px 215px;
   background-color: #0a2750;
-  background-image: url(/images/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
 }
 
 .recipes__title {
@@ -168,7 +169,7 @@
 
 .reservation {
   padding: 100px 0 120px;
-  background: url(background_reservation.svg);
+  background: url(../images/background_reservation.svg);
   background-size: cover;
   background-color: #d9e7ff;
 }
@@ -245,8 +246,8 @@
 }
 
 .menu {
+  background: url(../images/background_menu.svg);
   background-color: #fff;
-  background: url(background_menu.svg);
   background-image: cover;
 }
 
@@ -257,7 +258,7 @@
   font-size: 44px;
   line-height: 52px;
   text-align: center;
-  margin: 0 0 24;
+  margin: 100px 0 24px;
 }
 
 .menu__subtitle {
@@ -291,6 +292,10 @@
   list-style-type: none;
 }
 
+.card__list :last-child {
+  margin-bottom: 100px;
+}
+
 .card__title {
   margin: 0 0 32px;
   font-family: "Inter";
@@ -306,10 +311,84 @@
 }
 
 .card__list__item :last-child {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
+}
+
+.about {
+  background-color: #0a2850;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  margin-top: 100px;
+  margin-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: white;
+  z-index: 3;
+  position: relative;
+  max-width: 251px;
+}
+
+.about__content {
+  max-width: 660px;
+  z-index: 3;
+  position: relative;
+  margin-top: 119px;
+  padding: 0;
+  margin-right: 80px;
+  margin-bottom: 173px;
+}
+
+.about__content__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: relative;
+  top: -152px;
+  left: -129px;
+  z-index: 1;
+  position: absolute;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+  filter: blur(10px);
+  z-index: 2;
+  transform: scale(1.5);
 }
