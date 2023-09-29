@@ -1,7 +1,7 @@
 .menu {
   background: url(../images/background_menu.svg);
   background-color: #fff;
-  background-image: cover;
+  background-size: cover;
 }
 
 .menu__card {
@@ -10,10 +10,14 @@
   flex-wrap: wrap;
   gap: 100px;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .menu__title {
-  font-family: "Inter";
+  font-family: "Inter", arial, sans-sarif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -23,12 +27,10 @@
 }
 
 .menu__subtitle {
-  text-align: 100px;
-  margin: 0 0 100;
   text-align: center;
   max-width: 780px;
   margin: 0 auto;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

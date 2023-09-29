@@ -10,7 +10,8 @@
 .about__title {
   margin-top: 100px;
   margin-left: 80px;
-  font-family: "Inter";
+  margin-bottom: 0px;
+  font-family: "Inter", arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -31,13 +32,15 @@
   margin-bottom: 173px;
 }
 
-.about__content-paragraph {
-  font-family: "Noto Serif";
+.about__paragraph {
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 20px;
   color: white;
+  margin-top: 0px;
+  margin-bot: 0px;
 }
 
 @keyframes pulsate {

@@ -3,26 +3,17 @@
   <head>
     <title>Testing</title>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <meta name="keywords" content="Coffee, Code, Relaxation" />
-
     <meta name="author" content="Robert Bedea" />
-
     <meta
       name="description"
       content="A place to get coffee and think of the universe."
     />
-
     <link rel="stylesheet" href="./pages/index.css" />
-
     <link rel="icon" href="favicon.ico" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
@@ -33,7 +24,7 @@
       <header class="header">
         <nav class="nav">
           <img
-            src="/images/logo_coffeeshop_dark.svg"
+            src="../images/logo_coffeeshop_dark.svg"
             alt="coffeshop_logo"
             class="nav__logo"
           />
@@ -44,10 +35,10 @@
             <li><a href="#about" class="nav__link">Contacts</a></li>
           </ul>
         </nav>
-        <h1 class="header__title">
+        <h2 class="header__title">
           <span class="header__span-accent">Specialty Coffee</span> in the
           Triple Peaks Library
-        </h1>
+        </h2>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative.
@@ -83,20 +74,19 @@
                 <iframe
                   src="https://www.youtube.com/embed/j6VlT_jUVPc?si=CTEvm-m-PB0HfEoJ"
                   class="recipes__iframe"
-                  width="480"
-                  height="273"
                 ></iframe>
-                <p class="recipes__videos-caption">Aeropress recipe ~5 min</p>
+                <p class="recipes__videos-caption">
+                  Aeropress recipe <span>~5 min</span>
+                </p>
               </div>
+
               <div>
                 <iframe
                   src="https://www.youtube.com/embed/st571DYYTR8?si=sNRZSI_wT3ODaF2R"
                   class="recipes__iframe"
-                  width="480"
-                  height="273"
                 ></iframe>
-                <p class="recipes__videos-captions">
-                  French press recipe ~15min
+                <p class="recipes__videos-caption">
+                  French press recipe <span>~15 min</span>
                 </p>
               </div>
             </div>
@@ -245,14 +235,14 @@
           <h1 class="about__title">About the coffee shop</h1>
 
           <div class="about__content">
-            <p class="about__content-paragraph">
+            <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
               features 6 tables and free WiFi.
             </p>
-            <p class="about__content-paragraph">
+            <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized.
             </p>
-            <p class="about__content-paragraph">
+            <p class="about__paragraph">
               Besides that, we try to reduce our environmental impact — so we
               don't sell single-use cups. But you can buy one of our reusable
               cups!
@@ -284,7 +274,7 @@
               <li class="footer__list-item">
                 <a href="#" class="footer__column-link"
                   ><img
-                    src="/images/instagram_white.svg"
+                    src="./images/instagram_white.svg"
                     alt="Instagram logo"
                     class="footer__social-icon"
                   />Instagram</a
@@ -294,7 +284,7 @@
           </div>
         </div>
 
-        <p class="copyright">&copy; Robert Bedea</p>
+        <p class="footer__copyright">&copy; Robert Bedea</p>
       </footer>
     </div>
   </body>

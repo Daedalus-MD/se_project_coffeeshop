@@ -1,9 +1,10 @@
-.copyright {
+.footer__copyright {
   margin-top: 180px;
   position: relative;
-  font-family: "Inter";
+  font-family: "Inter", arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  bottom-margin: 0px;
 }
