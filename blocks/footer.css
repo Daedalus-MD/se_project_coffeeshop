@@ -47,6 +47,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  transition: color 0.3s ease;
 }
 
 .footer__column-link:hover {
