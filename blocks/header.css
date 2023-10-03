@@ -65,8 +65,13 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  z-index: 1;
 }
 
 .header__paragraph {
   margin: 0;
+  align-self: flex-end;
+}
+
+.header__footer:last-child {
 }
