@@ -29,10 +29,9 @@
   margin-top: 8px;
   max-width: 385px;
   height: 60px;
-  border-color: #838383;
   box-sizing: border-box;
   border-radius: 4px;
-  border-width: 1px;
+  border: 1px solid #838383;
 }
 
 .form__input::placeholder {
