@@ -40,6 +40,11 @@
   line-height: 30px;
   color: white;
   margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0px;
 }
 
 @keyframes pulsate {
